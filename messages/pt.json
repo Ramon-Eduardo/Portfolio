@@ -1,0 +1,65 @@
+{
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "portfolio": "Portfólio",
+    "contact": "Contato",
+    "language": "Idioma"
+  },
+    "profile": {
+    "position": "Desenvolvedor Web Frontend",
+    "introduction": "Olá, eu sou o Ramon, um desenvolvedor frontend brasileiro atualmente em transição para a área de tecnologia, focando em desenvolvimento web. Sou especializado na criação de interfaces responsivas e envolventes utilizando: HTML, CSS, módulos de estilo SCSS, JavaScript e React.",
+    "passion": "Tenho paixão por criar experiências digitais limpas, acessíveis e fáceis de usar. À medida que evoluo nessa área, estou animado para colaborar, aprender e transformar ideias em realidade através do código."
+
+  },
+  "about": {
+    "title": "Sobre mim",
+    "introduction": "Olá, sou Ramon — Desenvolvedor Web Frontend baseado em Minas Gerais, Brasil.",
+    "description": "Atualmente em transição profissional para a área de tecnologia após experiências em outros setores. Essa mudança representa meu compromisso com o aprendizado contínuo e minha paixão por desenvolvimento web. Concluí um bootcamp completo de desenvolvimento web frontend, onde aprendi e apliquei conceitos fundamentais de HTML, CSS, JavaScript e React. Além disso, aprofundei meus conhecimentos em SCSS e iniciei meus estudos em Next.js com o apoio de meu primo, desenvolvedor frontend pleno.",
+    "projects": {
+      "portfolio": "Portfólio pessoal: site responsivo desenvolvido com Next.js e SCSS, com suporte à tradução multilíngue (internacionalização), destacando minhas habilidades, trajetória e objetivos profissionais.",
+      "bootcamp": "Projetos do bootcamp: aplicações desenvolvidas durante o curso, focadas em fundamentos de frontend e boas práticas de desenvolvimento."
+    },
+    "closing": "Tenho facilidade para aprender novas tecnologias, trabalhar em equipe e aplicar boas práticas de desenvolvimento. Busco minha primeira oportunidade profissional como desenvolvedor frontend, onde possa contribuir com dedicação, crescer junto ao time e transformar ideias em soluções digitais de qualidade."
+  },
+
+  "portfolio": {
+    "title": "Portfólio",
+    "projects": {
+      "recipes": {
+        "title": "Site de Receitas",
+        "description": "Este foi um projeto web desenvolvido durante o bootcamp de Desenvolvimento Web Frontend do Campinho Digital. O objetivo era criar um site temático de receitas para exibir pratos variados, utilizando HTML, CSS, JavaScript e organização modular de arquivos.",
+        "features": "O site apresenta uma interface atrativa com banners, imagens ilustrativas e páginas dedicadas para diferentes receitas. Cada receita possui sua própria página com informações detalhadas e layout personalizado. O projeto também inclui botões de navegação para facilitar o acesso entre as seções principais e as receitas, além de uma barra de busca interativa para tornar a navegação ainda mais intuitiva.",
+        "structure": "Além disso, o código foi estruturado para facilitar a manutenção e o reaproveitamento de estilos, com múltiplos arquivos CSS e pastas de recursos organizadas.",
+        "projectActions": {
+          "view": "Ver projeto",
+          "source": "Código fonte",
+          "visit": "Visitar site"
+        }
+      },
+      "reencontrow": {
+        "title": "Site Reencontrow",
+        "description": "Reencontrow é uma aplicação web moderna desenvolvida com React e Vite, com uma interface limpa e responsiva. O projeto enfatiza a arquitetura baseada em componentes, com layouts reutilizáveis e gerenciamento organizado de recursos.",
+        "features": "O site apresenta seções visualmente atrativas, incluindo banners e imagens temáticas, todas estilizadas com Sass (SCSS) para folhas de estilo modulares e fáceis de manter. O design foi retirado do Figma, garantindo uma identidade visual profissional alinhada com as tendências atuais. A navegação é intuitiva e o layout se adapta perfeitamente a diferentes tamanhos de tela, proporcionando uma experiência consistente em todos os dispositivos.",
+        "structure": "A base de código foi estruturada para escalabilidade, com pastas separadas para componentes, estilos e recursos, garantindo fácil manutenção e futuras melhorias.",
+        "projectActions": {
+          "view": "Ver projeto",
+          "source": "Código fonte",
+          "visit": "Visitar site"
+        }
+      }
+    }
+  },
+
+  "contacts": {
+    "title": "Contatos",
+    "subtitle": "Vamos conversar",
+    "description": "Se você tiver interesse, entre em contato comigo.",
+    "info": {
+      "email": "ramoneduardo.contato@gmail.com",
+      "location": "Belo Horizonte, Brasil",
+      "whatsapp": "(+55) 31 99475-8935"
+    }
+  }
+
+}

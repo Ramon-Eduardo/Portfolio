@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "language": "Language"
+  },
+  "profile": {
+    "position": "Frontend Web Developer",
+    "introduction": "Hello, I'm Ramon, a Brazilian frontend developer currently transitioning into the tech field, focusing on web development. I specialize in creating responsive and engaging user interfaces using HTML, CSS, SCSS style modules, JavaScript, and React.",
+    "passion": "I'm passionate about building clean, accessible, and user-friendly digital experiences. As I grow in this field, I'm excited to collaborate, learn, and bring ideas to life through code."
+  },
+  "about": {
+    "title": "About me",
+    "introduction": "Hi, I'm Ramon — a Front-end Web Developer based in Minas Gerais, Brazil.",
+    "description": "Currently transitioning into the tech industry after professional experience in other sectors. This shift reflects my commitment to continuous learning and my passion for web development. I completed a full frontend web development bootcamp, where I learned and applied core concepts of HTML, CSS, JavaScript, and React. I also deepened my knowledge of SCSS and began exploring Next.js with guidance from my cousin, a mid-level frontend developer.",
+    "projects": {
+      "portfolio": "Personal portfolio: a responsive website built with Next.js and SCSS, featuring multilingual support (internationalization), showcasing my skills, background, and career goals.",
+      "bootcamp": "Bootcamp projects: applications developed during the course, focused on frontend fundamentals and best development practices."
+    },
+    "closing": "I'm eager to learn new technologies, collaborate with teams, and apply solid development principles. I'm currently seeking my first professional opportunity as a frontend developer, where I can contribute with dedication, grow alongside the team, and help turn ideas into high-quality digital solutions."
+  },
+
+  "portfolio": {
+    "title": "Portfolio",
+    "projects": {
+      "recipes": {
+        "title": "Recipes Website",
+        "description": "This was a web project developed during the Web Frontend bootcamp at Campinho Digital. The goal was to create a themed recipe website to display dishes, using HTML, CSS, JavaScript, and modular file organization.",
+        "features": "The site features an attractive interface with banners, illustrative images, and dedicated pages for different recipes. Each recipe has its own page with detailed information and a customized layout. The project also includes navigation buttons for easy access between the main sections and recipes, as well as an interactive search bar to make browsing even more intuitive.",
+        "structure": "Additionally, the codebase is structured for easy maintenance and style reuse, with multiple CSS files and organized asset folders.",
+        "projectActions": {
+          "view": "View project",
+          "source": "Source code",
+          "visit": "Visit site"
+        }
+      },
+      "reencontrow": {
+        "title": "Reencontrow Website",
+        "description": "Reencontrow is a modern web application developed with React and Vite, featuring a clean and responsive interface. The project emphasizes component-based architecture, with reusable layout components and organized asset management.",
+        "features": "The website showcases visually appealing sections, including banners and thematic images, all styled using Sass (SCSS) for modular and maintainable stylesheets. The design was taken from Figma, ensuring a professional visual identity aligned with current trends. Navigation is intuitive, and the layout adapts seamlessly to different screen sizes, providing a consistent user experience across devices.",
+        "structure": "The codebase is structured for scalability, with separate folders for components, styles, and assets, ensuring easy maintenance and future enhancements.",
+        "projectActions": {
+          "view": "View project",
+          "source": "Source code",
+          "visit": "Visit site"
+        }
+      }
+    }
+  },
+
+  "contacts": {
+    "title": "Contacts",
+    "subtitle": "Let's talk",
+    "description": "If you're interested please contact me.",
+    "info": {
+      "email": "ramoneduardo.contato@gmail.com",
+      "location": "Belo Horizonte, Brazil",
+      "whatsapp": "(+55) 31 99475-8935"
+    }
+  }
+}

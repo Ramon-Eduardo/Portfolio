@@ -1,0 +1,83 @@
+.about {
+    &:before {
+        content: '';
+        background-image: url('/background.jpeg'); // Caminho relativo à pasta public
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed; // opcional, mantém o fundo fixo ao rolar
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        opacity: 0.3;
+    }
+
+    .aboutContainer {
+        .row {
+            display: flex;
+
+            .aboutSection {
+                margin-top: 125px;
+
+                h2 {
+                    color: white;
+                    font-size: 50px;
+                    font-family: var(--font-lora);
+                    font-weight: bold;
+                }
+
+            }
+
+            .aboutText {
+                max-width: 900px;
+                color: white;
+                font-size: 20px;
+
+                p {
+                    font-family: var(--font-inter);
+                }
+
+                .textIntroduction {
+                    color: white;
+                    font-size: 20px;
+                    font-family: var(--font-lora);
+                    font-weight: bold;
+                }
+
+                .text {
+                    color: white;
+                    font-size: 20px;
+                    text-align: justify;
+                }
+
+            }
+
+            .cv {
+                display: flex;
+                align-items: center;
+                gap: 30px;
+
+                a {
+                    display: inline-flex;
+                    color: white;
+                    font-size: 27px;
+                    font-family: var(--font-inter);
+                    text-decoration: none;
+                    border: 2px solid;
+                    border-color: white;
+                    border-radius: 50px;
+                    padding: 20px;
+                    margin-top: 85px;
+                    gap: 8px;
+                }
+
+
+            }
+        }
+
+
+    }
+}

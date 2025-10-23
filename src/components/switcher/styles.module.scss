@@ -1,0 +1,24 @@
+.select {
+    position: relative;
+
+    .action {
+        cursor: pointer;
+    }
+
+    .selectGroup {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        z-Index: 10;
+        cursor: pointer;
+    }
+
+    .selectOptions {
+        cursor: pointer;
+
+        &.hide {
+            display: none;
+        }
+    }
+}

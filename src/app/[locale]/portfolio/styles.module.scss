@@ -1,0 +1,154 @@
+.portfolio {
+    .portfolioContainer {
+        .title {
+            h1 {
+                color: white;
+                font-size: 50px;
+                font-weight: bold;
+                margin-left: 50px;
+                margin-top: 50px;
+                font-family: var(--font-lora);
+
+            }
+        }
+
+        .portfolioRow {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .portfolioProjects {
+
+
+                .recipes {
+                    display: flex;
+                    gap: 16px;
+                    margin-top: 100px;
+
+                    .recipesText {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+                        max-width: 647px;
+                        max-height: 296px;
+                        margin-left: 200px;
+
+                        h3 {
+                            color: white;
+                            font-size: 25px;
+                            font-weight: 500px;
+                            margin-top: 300px;
+                            font-family: var(--font-lora);
+
+                        }
+
+                        p {
+                            color: white;
+                            font-size: 20px;
+                            font-weight: medium;
+                            text-align: justify;
+                            font-family: var(--font-inter);
+                        }
+
+                        .projectLinks {
+                            display: flex;
+                            font-size: 20px;
+                            gap: 80px;
+
+                            .viewButton {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                text-decoration: none;
+                                color: white;
+                                font-size: 20px;
+                                border: 1px solid white;
+                                padding: 5px 30px;
+                                border-radius: 60px;
+                            }
+
+                            a {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                gap: 10px;
+                                text-decoration: none;
+                                color: white;
+                                font-size: 20px;
+                                font-family: var(--font-inter);
+                                font-weight: medium;
+                            }
+                        }
+                    }
+
+                }
+
+                .reencontrow {
+                    display: flex;
+                    margin-top: 179px;
+
+                    .reencontrowText {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+                        max-width: 647px;
+                        max-height: 296px;
+                        margin-right: 200px;
+
+                        h3 {
+                            color: white;
+                            font-size: 25px;
+                            font-weight: medium;
+                            margin-top: 300px;
+                            font-family: var(--font-inter);
+
+                        }
+
+                        p {
+                            color: white;
+                            font-size: 20px;
+                            font-weight: medium;
+                            text-align: justify;
+                            font-family: var(--font-inter);
+                        }
+
+
+                    }
+
+                    .projectLinks {
+                        display: flex;
+                        gap: 80px;
+
+                        .viewButton {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            text-decoration: none;
+                            color: white;
+                            font-size: 20px;
+                            border: 1px solid white;
+                            padding: 5px 30px;
+                            border-radius: 60px;
+                        }
+
+                        a {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            gap: 10px;
+                            text-decoration: none;
+                            color: white;
+                            font-size: 20px;
+                            font-family: var(--font-inter);
+                            font-weight: medium;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
