@@ -36,7 +36,7 @@ export default function AboutPage() {
                                 </p>
                             </div>
                             <div className={styles.cv}>
-                                <Link href="./curriculo/curriculo.pdf">
+                                <Link href="/curriculo/curriculo.pdf">
                                     Download CV
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
