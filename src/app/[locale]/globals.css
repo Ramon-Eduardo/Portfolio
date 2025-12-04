@@ -13,3 +13,5 @@
 body {
   background-color: black;
 }
+
+@media screen and (max-width: 1440px) {}
