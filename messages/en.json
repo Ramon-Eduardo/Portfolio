@@ -23,7 +23,6 @@
   },
 
   "portfolio": {
-    "title": "Portfolio",
     "projects": {
       "recipes": {
         "title": "Recipes Website",

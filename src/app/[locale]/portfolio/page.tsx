@@ -9,11 +9,6 @@ export default function PortfolioPage() {
     return (
         <div className={styles.portfolio}>
             <div className={styles.portfolioContainer}>
-                <Container>
-                    <div className={styles.title}>
-                        <h1>{t("title")}</h1>
-                    </div>
-                </Container>
                 <div className={styles.portfolioRow}>
                     <div className={styles.portfolioProjects}>
                         <Container>

@@ -24,7 +24,6 @@
   },
 
   "portfolio": {
-    "title": "Portfólio",
     "projects": {
       "recipes": {
         "title": "Site de Receitas",
