@@ -20,6 +20,8 @@
                         flex-direction: row;
                     }
 
+
+
                     .textContent {
 
                         .recipesText {
@@ -31,6 +33,10 @@
                             @media (min-width: 769px) {
                                 flex-direction: row;
                                 gap: 40px;
+                            }
+
+                            @media (max-width: 1024px) {
+                                flex-direction: column;
                             }
 
                             .text {
@@ -63,6 +69,7 @@
                                 font-size: 20px;
                                 margin-top: 20px;
                                 gap: 80px;
+                                flex-direction: column;
 
                                 .links {
                                     display: flex;
@@ -70,6 +77,10 @@
                                     justify-content: center;
                                     flex-direction: column;
                                     gap: 30px;
+
+                                    @media (max-width: 425px) {
+                                        flex-direction: row;
+                                    }
 
                                     .viewButton {
                                         display: flex;
@@ -106,6 +117,15 @@
                                     }
                                 }
 
+                                .logo {
+
+                                    @media (max-width: 425px) {
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        gap: 10px;
+                                    }
+                                }
                             }
                         }
                     }
@@ -142,6 +162,10 @@
                                 gap: 40px;
                             }
 
+                            @media (max-width: 1024px) {
+                                flex-direction: column;
+                            }
+
                             .text {
                                 text-align: center;
 
@@ -172,6 +196,7 @@
                                 margin-top: 20px;
                                 gap: 80px;
                                 margin-bottom: 60px;
+                                flex-direction: column;
 
                                 .links {
                                     display: flex;
@@ -179,6 +204,10 @@
                                     justify-content: center;
                                     flex-direction: column;
                                     gap: 30px;
+
+                                    @media (max-width: 425px) {
+                                        flex-direction: row;
+                                    }
 
                                     .viewButton {
                                         display: flex;
@@ -211,6 +240,15 @@
                                     }
                                 }
 
+                                .logo {
+
+                                    @media (max-width: 425px) {
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        gap: 10px;
+                                    }
+                                }
                             }
 
                             img {
