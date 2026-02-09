@@ -66,56 +66,10 @@
 
                             .project {
                                 display: flex;
-                                font-size: 20px;
-                                margin-top: 20px;
-                                gap: 80px;
+                                // margin-top: 20px;
+                                // gap: 80px;
                                 flex-direction: column;
 
-                                .links {
-                                    display: flex;
-                                    align-items: center;
-                                    justify-content: center;
-                                    flex-direction: column;
-                                    gap: 30px;
-
-                                    @media (max-width: 425px) {
-                                        flex-direction: row;
-                                    }
-
-                                    .viewButton {
-                                        display: flex;
-                                        align-items: center;
-                                        justify-content: center;
-                                        text-decoration: none;
-                                        color: white;
-                                        font-size: 20px;
-                                        border: 1px solid white;
-                                        padding: 20px 30px;
-                                        border-radius: 30px;
-
-                                        &:hover {
-                                            box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
-                                        }
-                                    }
-
-                                    a {
-                                        display: flex;
-                                        align-items: center;
-                                        justify-content: center;
-                                        gap: 10px;
-                                        text-decoration: none;
-                                        color: white;
-                                        font-size: 20px;
-                                        font-family: var(--font-inter);
-                                        font-weight: medium;
-                                        border-radius: 40px;
-                                        padding: 5px 10px;
-
-                                        &:hover {
-                                            box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
-                                        }
-                                    }
-                                }
 
                                 .logo {
 
@@ -127,6 +81,58 @@
                                     }
                                 }
                             }
+
+                            .links {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                flex-direction: column;
+                                gap: 30px;
+
+                                @media (max-width: 425px) {
+                                    flex-direction: row;
+                                }
+
+                                @media (max-width: 1366px) {
+                                    flex-direction: row;
+                                    margin-top: 20px;
+                                }
+
+                                .viewButton {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    text-decoration: none;
+                                    color: white;
+                                    font-size: 20px;
+                                    border: 1px solid white;
+                                    padding: 20px 30px;
+                                    border-radius: 30px;
+
+                                    &:hover {
+                                        box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+                                    }
+                                }
+
+                                a {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    gap: 10px;
+                                    text-decoration: none;
+                                    color: white;
+                                    font-size: 20px;
+                                    font-family: var(--font-inter);
+                                    font-weight: medium;
+                                    border-radius: 40px;
+                                    padding: 5px 10px;
+
+                                    &:hover {
+                                        box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+                                    }
+                                }
+                            }
+
                         }
                     }
 
@@ -137,6 +143,10 @@
                         @media (max-width: 769px) {
                             width: 250px;
                             height: 300px;
+                        }
+
+                        @media (max-width: 1366px) {
+                            margin-top: 120px;
                         }
                     }
 
@@ -198,47 +208,7 @@
                                 margin-bottom: 60px;
                                 flex-direction: column;
 
-                                .links {
-                                    display: flex;
-                                    align-items: center;
-                                    justify-content: center;
-                                    flex-direction: column;
-                                    gap: 30px;
 
-                                    @media (max-width: 425px) {
-                                        flex-direction: row;
-                                    }
-
-                                    .viewButton {
-                                        display: flex;
-                                        align-items: center;
-                                        justify-content: center;
-                                        text-decoration: none;
-                                        color: white;
-                                        font-size: 20px;
-                                        border: 1px solid white;
-                                        padding: 20px 30px;
-                                        border-radius: 30px;
-                                    }
-
-                                    a {
-                                        display: flex;
-                                        align-items: center;
-                                        justify-content: center;
-                                        gap: 10px;
-                                        text-decoration: none;
-                                        color: white;
-                                        font-size: 20px;
-                                        font-family: var(--font-inter);
-                                        font-weight: medium;
-                                        border-radius: 40px;
-                                        padding: 5px 10px;
-
-                                        &:hover {
-                                            box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
-                                        }
-                                    }
-                                }
 
                                 .logo {
 
@@ -251,6 +221,54 @@
                                 }
                             }
 
+                            .links {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                flex-direction: column;
+                                gap: 30px;
+
+                                @media (max-width: 425px) {
+                                    flex-direction: row;
+                                }
+
+                                @media (max-width: 1366px) and (max-width: 1444px) {
+                                    flex-direction: row;
+                                    margin-bottom: 60px;
+                                }
+
+
+                                .viewButton {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    text-decoration: none;
+                                    color: white;
+                                    font-size: 20px;
+                                    border: 1px solid white;
+                                    padding: 20px 30px;
+                                    border-radius: 30px;
+                                }
+
+                                a {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    gap: 10px;
+                                    text-decoration: none;
+                                    color: white;
+                                    font-size: 20px;
+                                    font-family: var(--font-inter);
+                                    font-weight: medium;
+                                    border-radius: 40px;
+                                    padding: 5px 10px;
+
+                                    &:hover {
+                                        box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+                                    }
+                                }
+                            }
+
                             img {
                                 margin-top: 90px;
                                 width: 500px;
@@ -259,6 +277,10 @@
                                 @media (max-width: 769px) {
                                     width: 250px;
                                     height: 300px;
+                                }
+
+                                @media (max-width: 1366px) {
+                                    margin-top: 120px;
                                 }
                             }
                         }

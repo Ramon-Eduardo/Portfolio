@@ -33,13 +33,13 @@ export default function PortfolioPage() {
                                             <div className={styles.logo}>
                                                 <img src="/project1.png" alt="Recipes" />
                                             </div>
-                                            <div className={styles.links}>
-                                                <Link className={styles.viewButton} href="https://receitas-eta-eight.vercel.app/">{t("projects.recipes.projectActions.view")}</Link>
-                                                <Link href="https://github.com/Ramon-Eduardo/Receitas">
-                                                    <GithubIcon />
-                                                    <p>Git Code</p>
-                                                </Link>
-                                            </div>
+                                        </div>
+                                        <div className={styles.links}>
+                                            <Link className={styles.viewButton} href="https://receitas-eta-eight.vercel.app/">{t("projects.recipes.projectActions.view")}</Link>
+                                            <Link href="https://github.com/Ramon-Eduardo/Receitas">
+                                                <GithubIcon />
+                                                <p>Git Code</p>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -65,13 +65,13 @@ export default function PortfolioPage() {
                                             <div className={styles.logo}>
                                                 <img src="/project2.png" alt="Reencontrow" />
                                             </div>
-                                            <div className={styles.links}>
-                                                <Link className={styles.viewButton} href="https://reencontrow-delta.vercel.app/">{t("projects.recipes.projectActions.view")}</Link>
-                                                <Link href="https://github.com/Ramon-Eduardo/Reencontrow">
-                                                    <GithubIcon />
-                                                    <p>Git Code</p>
-                                                </Link>
-                                            </div>
+                                        </div>
+                                        <div className={styles.links}>
+                                            <Link className={styles.viewButton} href="https://reencontrow-delta.vercel.app/">{t("projects.recipes.projectActions.view")}</Link>
+                                            <Link href="https://github.com/Ramon-Eduardo/Reencontrow">
+                                                <GithubIcon />
+                                                <p>Git Code</p>
+                                            </Link>
                                         </div>
                                     </div>
 
