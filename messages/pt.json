@@ -8,7 +8,7 @@
   },
     "profile": {
     "position": "Desenvolvedor Web Frontend",
-    "introduction": "Olá, eu sou o Ramon, um desenvolvedor frontend brasileiro atualmente em transição para a área de tecnologia, focando em desenvolvimento web. Sou especializado na criação de interfaces responsivas e interessantes utilizando: HTML, CSS, módulos de estilo SCSS, JavaScript, React.js e Next.js.",
+    "introduction": "Olá, me chamo Ramon, um desenvolvedor frontend brasileiro atualmente em transição para a área de tecnologia, focando em desenvolvimento web. Sou especializado na criação de interfaces responsivas e interessantes utilizando: HTML, CSS, módulos de estilo SCSS, JavaScript, React.js e Next.js.",
     "passion": "Tenho paixão por criar experiências digitais limpas, acessíveis e fáceis de usar. À medida que evoluo nessa área, estou animado para colaborar, aprender e transformar ideias em realidade através do código."
 
   },
@@ -38,8 +38,8 @@
       },
       "reencontrow": {
         "title": "Site Reencontrow",
-        "description": "Reencontrow é uma aplicação web moderna desenvolvida com React e Vite, com uma interface limpa e responsiva. O projeto enfatiza a arquitetura baseada em componentes, com layouts reutilizáveis e gerenciamento organizado de recursos.",
-        "features": "O site apresenta seções visualmente atrativas, incluindo banners e imagens temáticas, todas estilizadas com Sass (SCSS) para folhas de estilo modulares e fáceis de manter. O design foi retirado do Figma, garantindo uma identidade visual profissional alinhada com as tendências atuais. A navegação é intuitiva e o layout se adapta perfeitamente a diferentes tamanhos de tela, proporcionando uma experiência consistente em todos os dispositivos.",
+        "description": "Reencontrow é uma aplicação web moderna desenvolvida com React e Vite, com uma interface limpa. O projeto enfatiza a arquitetura baseada em componentes, com layouts reutilizáveis e gerenciamento organizado de recursos.",
+        "features": "O site apresenta seções visualmente atrativas, incluindo banners e imagens temáticas, todas estilizadas com Sass (SCSS) para folhas de estilo modulares e fáceis de manter. O design foi retirado do Figma, garantindo uma identidade visual profissional alinhada com as tendências atuais.",
         "structure": "A base de código foi estruturada para escalabilidade, com pastas separadas para componentes, estilos e recursos, garantindo fácil manutenção e futuras melhorias.",
         "projectActions": {
           "view": "Ver projeto",

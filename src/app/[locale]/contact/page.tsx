@@ -11,9 +11,9 @@ export default function ContactPage() {
         <div className={styles.contacts}>
             <div className={styles.contactContainer}>
                 <Container>
-                    <div className={styles.title}>
+                    {/* <div className={styles.title}>
                         <h2>{t("title")}</h2>
-                    </div>
+                    </div> */}
                     <div className={styles.text}>
                         <h4>{t("subtitle")}</h4>
                         <p>{t("description")}</p>

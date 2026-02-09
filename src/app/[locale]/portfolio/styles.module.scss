@@ -12,63 +12,111 @@
 
                 .recipes {
                     display: flex;
+                    align-items: center;
+                    flex-direction: column;
                     gap: 16px;
-                    margin-top: 100px;
 
-                    .recipesText {
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        flex-direction: column;
-                        max-width: 647px;
-                        max-height: 296px;
-                        margin-left: 200px;
+                    @media (max-width: 769px) {
+                        flex-direction: row;
+                    }
 
-                        h3 {
-                            color: white;
-                            font-size: 25px;
-                            font-weight: 500px;
-                            margin-top: 300px;
-                            font-family: var(--font-lora);
+                    .textContent {
 
-                        }
-
-                        p {
-                            color: white;
-                            font-size: 20px;
-                            font-weight: medium;
-                            text-align: justify;
-                            font-family: var(--font-inter);
-                        }
-
-                        .projectLinks {
+                        .recipesText {
                             display: flex;
-                            font-size: 20px;
-                            gap: 80px;
+                            align-items: center;
+                            justify-content: center;
+                            flex-direction: column;
 
-                            .viewButton {
-                                display: flex;
-                                align-items: center;
-                                justify-content: center;
-                                text-decoration: none;
-                                color: white;
-                                font-size: 20px;
-                                border: 1px solid white;
-                                padding: 5px 30px;
-                                border-radius: 60px;
+                            @media (min-width: 769px) {
+                                flex-direction: row;
+                                gap: 40px;
                             }
 
-                            a {
-                                display: flex;
-                                align-items: center;
-                                justify-content: center;
-                                gap: 10px;
-                                text-decoration: none;
-                                color: white;
-                                font-size: 20px;
-                                font-family: var(--font-inter);
-                                font-weight: medium;
+                            .text {
+                                text-align: center;
+
+                                h3 {
+                                    color: white;
+                                    font-size: 25px;
+                                    font-weight: 500px;
+                                    margin-top: 100px;
+                                    font-family: var(--font-lora);
+
+                                    @media (max-width: 769px) {
+                                        margin-top: 20px;
+                                    }
+                                }
+
+                                p {
+                                    color: white;
+                                    font-size: 20px;
+                                    font-weight: medium;
+                                    text-align: justify;
+                                    font-family: var(--font-inter);
+                                }
                             }
+
+
+                            .project {
+                                display: flex;
+                                font-size: 20px;
+                                margin-top: 20px;
+                                gap: 80px;
+
+                                .links {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    flex-direction: column;
+                                    gap: 30px;
+
+                                    .viewButton {
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        text-decoration: none;
+                                        color: white;
+                                        font-size: 20px;
+                                        border: 1px solid white;
+                                        padding: 20px 30px;
+                                        border-radius: 30px;
+
+                                        &:hover {
+                                            box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+                                        }
+                                    }
+
+                                    a {
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        gap: 10px;
+                                        text-decoration: none;
+                                        color: white;
+                                        font-size: 20px;
+                                        font-family: var(--font-inter);
+                                        font-weight: medium;
+                                        border-radius: 40px;
+                                        padding: 5px 10px;
+
+                                        &:hover {
+                                            box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+                                        }
+                                    }
+                                }
+
+                            }
+                        }
+                    }
+
+                    img {
+                        width: 500px;
+                        height: 470px;
+
+                        @media (max-width: 769px) {
+                            width: 250px;
+                            height: 300px;
                         }
                     }
 
@@ -76,65 +124,108 @@
 
                 .reencontrow {
                     display: flex;
-                    margin-top: 179px;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 16px;
+                    margin-top: 20px;
 
-                    .reencontrowText {
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        flex-direction: column;
-                        max-width: 647px;
-                        max-height: 296px;
-                        margin-right: 200px;
+                    .textContent {
 
-                        h3 {
-                            color: white;
-                            font-size: 25px;
-                            font-weight: medium;
-                            margin-top: 300px;
-                            font-family: var(--font-inter);
-
-                        }
-
-                        p {
-                            color: white;
-                            font-size: 20px;
-                            font-weight: medium;
-                            text-align: justify;
-                            font-family: var(--font-inter);
-                        }
-
-
-                    }
-
-                    .projectLinks {
-                        display: flex;
-                        gap: 80px;
-
-                        .viewButton {
+                        .reencontrowText {
                             display: flex;
                             align-items: center;
                             justify-content: center;
-                            text-decoration: none;
-                            color: white;
-                            font-size: 20px;
-                            border: 1px solid white;
-                            padding: 5px 30px;
-                            border-radius: 60px;
-                        }
+                            flex-direction: column;
 
-                        a {
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                            gap: 10px;
-                            text-decoration: none;
-                            color: white;
-                            font-size: 20px;
-                            font-family: var(--font-inter);
-                            font-weight: medium;
+                            @media (min-width: 769px) {
+                                flex-direction: row;
+                                gap: 40px;
+                            }
+
+                            .text {
+                                text-align: center;
+
+                                h3 {
+                                    color: white;
+                                    font-size: 25px;
+                                    font-weight: medium;
+                                    margin-top: 100px;
+                                    font-family: var(--font-inter);
+
+                                    @media (max-width: 769px) {
+                                        margin-top: 20px;
+                                    }
+                                }
+
+                                p {
+                                    color: white;
+                                    font-size: 20px;
+                                    font-weight: medium;
+                                    text-align: justify;
+                                    font-family: var(--font-inter);
+                                }
+                            }
+
+                            .project {
+                                display: flex;
+                                font-size: 20px;
+                                margin-top: 20px;
+                                gap: 80px;
+                                margin-bottom: 60px;
+
+                                .links {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    flex-direction: column;
+                                    gap: 30px;
+
+                                    .viewButton {
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        text-decoration: none;
+                                        color: white;
+                                        font-size: 20px;
+                                        border: 1px solid white;
+                                        padding: 20px 30px;
+                                        border-radius: 30px;
+                                    }
+
+                                    a {
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        gap: 10px;
+                                        text-decoration: none;
+                                        color: white;
+                                        font-size: 20px;
+                                        font-family: var(--font-inter);
+                                        font-weight: medium;
+                                        border-radius: 40px;
+                                        padding: 5px 10px;
+
+                                        &:hover {
+                                            box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+                                        }
+                                    }
+                                }
+
+                            }
+
+                            img {
+                                margin-top: 90px;
+                                width: 500px;
+                                height: 460px;
+
+                                @media (max-width: 769px) {
+                                    width: 250px;
+                                    height: 300px;
+                                }
+                            }
                         }
                     }
+
                 }
             }
         }

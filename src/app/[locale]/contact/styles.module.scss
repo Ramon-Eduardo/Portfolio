@@ -57,6 +57,11 @@
             justify-content: center;
             justify-content: space-between;
             margin-top: 150px;
+            flex-direction: column;
+
+            @media (min-width: 769px) {
+                flex-direction: row;
+            }
 
             .email,
             .location,

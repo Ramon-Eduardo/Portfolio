@@ -46,8 +46,10 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <body className={cn(geistSans.variable, geistMono.variable, inter.variable, lora.variable)}>
-        <Header></Header>
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider>
+          <Header />
+          {children}
+        </NextIntlClientProvider>
       </body>
     </html>
   );

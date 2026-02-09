@@ -37,8 +37,8 @@
       },
       "reencontrow": {
         "title": "Reencontrow Website",
-        "description": "Reencontrow is a modern web application developed with React and Vite, featuring a clean and responsive interface. The project emphasizes component-based architecture, with reusable layout components and organized asset management.",
-        "features": "The website showcases visually appealing sections, including banners and thematic images, all styled using Sass (SCSS) for modular and maintainable stylesheets. The design was taken from Figma, ensuring a professional visual identity aligned with current trends. Navigation is intuitive, and the layout adapts seamlessly to different screen sizes, providing a consistent user experience across devices.",
+        "description": "Reencontrow is a modern web application developed with React and Vite, featuring a clean interface. The project emphasizes component-based architecture, with reusable layout components and organized asset management.",
+        "features": "The website showcases visually appealing sections, including banners and thematic images, all styled using Sass (SCSS) for modular and maintainable stylesheets. The design was taken from Figma, ensuring a professional visual identity aligned with current trends.",
         "structure": "The codebase is structured for scalability, with separate folders for components, styles, and assets, ensuring easy maintenance and future enhancements.",
         "projectActions": {
           "view": "View project",

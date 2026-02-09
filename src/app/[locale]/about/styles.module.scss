@@ -18,6 +18,8 @@
     .aboutContainer {
         .row {
             display: flex;
+            flex-direction: column;
+            align-items: center;
 
             .aboutSection {
                 margin-top: 125px;
@@ -45,20 +47,29 @@
                     font-size: 20px;
                     font-family: var(--font-lora);
                     font-weight: bold;
+                    text-align: justify;
                 }
 
                 .text {
                     color: white;
                     font-size: 20px;
                     text-align: justify;
+                    letter-spacing: 0, 06rem;
                 }
 
             }
 
             .cv {
                 display: flex;
+                flex-direction: row;
                 align-items: center;
                 gap: 30px;
+                margin-bottom: 5rem;
+
+                @media (max-width: 767px) {
+                    flex-direction: column;
+                    gap: 5px;
+                }
 
                 a {
                     display: inline-flex;
@@ -70,14 +81,14 @@
                     border-color: white;
                     border-radius: 50px;
                     padding: 20px;
-                    margin-top: 85px;
+                    margin-top: 50px;
                     gap: 8px;
+
+                    @media (min-width: 769px) {
+                        margin-top: 5px;
+                    }
                 }
-
-
             }
         }
-
-
     }
 }
