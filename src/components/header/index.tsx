@@ -50,6 +50,7 @@ export function Header() {
                             <Link onClick={() => setNavMobile(false)} className={styles.ctnContact} href="/contact">{translate('contact')}</Link>
                         </div>
                         <div className={styles.selectLanguage}>
+                            <span className={styles.labelLanguage}>{translate('language')}:</span>
                             <LanguageSwitcher />
                         </div>
                     </div>

@@ -96,6 +96,14 @@
             flex: 1;
             display: flex;
             justify-content: flex-end;
+            gap: 10px;
+
+            .labelLanguage {
+                display: flex;
+                align-items: center;
+                color: white;
+                font-family: var(--font-inter);
+            }
         }
 
     }
