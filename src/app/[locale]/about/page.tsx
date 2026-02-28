@@ -32,11 +32,11 @@ export default function AboutPage() {
                                 </p>
                             </div>
                             <div className={styles.cv}>
-                                <Link href="/curriculo/Curriculo.pdf">
+                                <Link href="/curriculo/curriculo.pdf">
                                     Download CV
                                     <PtbrIcon />
                                 </Link>
-                                <Link href="/curriculo/Resume.pdf">
+                                <Link href="/curriculo/resume.pdf">
                                     Download CV
                                     <EnIcon />
                                 </Link>
