@@ -27,7 +27,7 @@ Repositório do portfólio pessoal, implementado com Next.js (App Router) e inte
 <<<<<<< HEAD
 
 =======
->>>>>>> 77236660ef9dffe46f0d4915b1b6b37e0cedf42a
+>>>>>>>
 ```bash
 npm install
 ```
@@ -36,7 +36,7 @@ npm install
 <<<<<<< HEAD
 
 =======
->>>>>>> 77236660ef9dffe46f0d4915b1b6b37e0cedf42a
+>>>>>>>
 ```bash
 npm run dev
 ```
@@ -45,7 +45,7 @@ npm run dev
 <<<<<<< HEAD
 
 =======
->>>>>>> 77236660ef9dffe46f0d4915b1b6b37e0cedf42a
+>>>>>>>
 ```bash
 npm run build
 npm run start
@@ -63,7 +63,7 @@ Acesse o projeto em http://localhost:3000 (ou a rota de locale, ex: `/pt`).
 - Arquivos de mensagens: `messages/en.json` e `messages/pt.json`.  
 - Provider por locale implementado em `src/app/[locale]/layout.tsx` (NextIntlProvider).  
 - Em componentes cliente use `useTranslations('namespace')`; em server components/pages use `getTranslator(params.locale)` ou `getTranslator(params.locale, 'namespace')`.  
->>>>>>> 77236660ef9dffe46f0d4915b1b6b37e0cedf42a
+>>>>>>> 
 - Atualize apenas as chaves realmente usadas no código.
 
 ## Estrutura resumida
@@ -96,7 +96,7 @@ Acesse o projeto em http://localhost:3000 (ou a rota de locale, ex: `/pt`).
 =======
 - Se remover/alterar imagens ou SVGs do `public/`, atualize referências nos componentes.  
 - Mantenha `messages/*.json` sincronizados com as chaves usadas no código para evitar chaves ausentes.  
->>>>>>> 77236660ef9dffe46f0d4915b1b6b37e0cedf42a
+>>>>>>>
 - Para incluir bandeiras SVG como componentes, coloque-os em `src/components/svg/`.
 
 ---
