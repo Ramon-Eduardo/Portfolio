@@ -18,7 +18,7 @@ Repositório do portfólio pessoal, implementado com Next.js (App Router) e inte
 - Estilos em Sass/SCSS (`app.scss`, módulos por componente).  
 - Preservação de rota ao trocar idioma (LanguageSwitcher usa `usePathname`).  
 - Middleware para redirecionamento/controle de locale (`src/middleware.ts`).  
->>>>>>> 77236660ef9dffe46f0d4915b1b6b37e0cedf42a
+>>>>>>>
 - Assets públicos mínimos mantidos em `public/` (ex.: `public/curriculo`).
 
 ## Rodando localmente
