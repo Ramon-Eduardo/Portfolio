@@ -16,9 +16,9 @@
     "title": "Sobre mim",
     "introduction": "Olá, sou Ramon — Desenvolvedor Web Frontend baseado em Minas Gerais, Brasil.",
     "description": "Atualmente em transição profissional para a área de tecnologia após experiências em outros setores. Essa mudança representa meu compromisso com o aprendizado contínuo e minha paixão por desenvolvimento web. Concluí um bootcamp completo de desenvolvimento web frontend, onde aprendi e apliquei conceitos fundamentais de HTML, CSS, JavaScript e React. Além disso, aprofundei meus conhecimentos em SCSS e iniciei meus estudos em Next.js com o apoio de meu primo, desenvolvedor frontend pleno.",
-    "projects": {
-      "portfolio": "Portfólio pessoal: site responsivo desenvolvido com Next.js e SCSS, com suporte à tradução multilíngue (internacionalização), destacando minhas habilidades, trajetória e objetivos profissionais.",
-      "bootcamp": "Projetos do bootcamp: aplicações desenvolvidas durante o curso, focadas em fundamentos de frontend e boas práticas de desenvolvimento."
+    "present": {
+      "education": "Atualmente, estou matriculado e cursando o tecnólogo em Análise e Desenvolvimento de Sistemas no Centro Universitário Padre Anchieta, com previsão de conclusão para 2027.",
+      "goals": "Meu objetivo é me tornar um desenvolvedor completo, aprimorando minhas habilidades, e expandir meu conhecimento aprendendo novas tecnologias e frameworks. Estou focado em me tornar um profissional completo, capaz de contribuir efetivamente para projetos e equipes, e estou aberto a oportunidades que me permitam crescer e aplicar meus conhecimentos em ambientes desafiadores."
     },
     "closing": "Tenho facilidade para aprender novas tecnologias, trabalhar em equipe e aplicar boas práticas de desenvolvimento. Busco minha primeira oportunidade profissional como desenvolvedor frontend, onde possa contribuir com dedicação, crescer junto ao time e transformar ideias em soluções digitais de qualidade."
   },

@@ -21,28 +21,22 @@ export default function AboutPage() {
                                 <p className={styles.text}>
                                     {t("description")}
                                 </p>
-                                <ul>
-                                    <li>
-                                        <p>
-                                            {t("projects.portfolio")}
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            {t("projects.bootcamp")}
-                                        </p>
-                                    </li>
-                                </ul>
+                                <p className={styles.text}>
+                                    {t("present.education")}
+                                </p>
+                                <p className={styles.text}>
+                                    {t("present.goals")}
+                                </p>
                                 <p>
                                     {t("closing")}
                                 </p>
                             </div>
                             <div className={styles.cv}>
-                                <Link href="/curriculo/curriculo.pdf">
+                                <Link href="/curriculo/Curriculo.pdf">
                                     Download CV
                                     <PtbrIcon />
                                 </Link>
-                                <Link href="/curriculo/resume.pdf">
+                                <Link href="/curriculo/Resume.pdf">
                                     Download CV
                                     <EnIcon />
                                 </Link>

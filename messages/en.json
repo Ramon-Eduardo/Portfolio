@@ -15,9 +15,9 @@
     "title": "About me",
     "introduction": "Hi, I'm Ramon — a Front-end Web Developer based in Minas Gerais, Brazil.",
     "description": "Currently transitioning into the tech industry after professional experience in other sectors. This shift reflects my commitment to continuous learning and my passion for web development. I completed a full frontend web development bootcamp, where I learned and applied core concepts of HTML, CSS, JavaScript, and React. I also deepened my knowledge of SCSS and began exploring Next.js with guidance from my cousin, a mid-level frontend developer.",
-    "projects": {
-      "portfolio": "Personal portfolio: a responsive website built with Next.js and SCSS, featuring multilingual support (internationalization), showcasing my skills, background, and career goals.",
-      "bootcamp": "Bootcamp projects: applications developed during the course, focused on frontend fundamentals and best development practices."
+    "present": {
+      "education": "Currently, I am enrolled and studying for a technologist degree in Analysis and Systems Development at Centro Universitário Padre Anchieta, expected to graduate in 2027.",
+      "goals": "My goal is to become a well-rounded developer by enhancing my skills and expanding my knowledge through new technologies and frameworks. I am committed to becoming a complete professional who can effectively contribute to projects and teams, and I'm open to opportunities that enable me to grow and apply my expertise in challenging environments."
     },
     "closing": "I'm eager to learn new technologies, collaborate with teams, and apply solid development principles. I'm currently seeking my first professional opportunity as a frontend developer, where I can contribute with dedication, grow alongside the team, and help turn ideas into high-quality digital solutions."
   },
