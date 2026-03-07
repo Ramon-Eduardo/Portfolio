@@ -46,7 +46,7 @@ export function Header() {
 
                             <Link onClick={() => setNavMobile(false)} href={"/"}>{translate('home')}</Link>
                             <Link onClick={() => setNavMobile(false)} href="/about">{translate('about')}</Link>
-                            <Link onClick={() => setNavMobile(false)} href="/portfolio">{translate('portfolio')}</Link>
+                            <Link onClick={() => setNavMobile(false)} href="/projects">{translate('dev')}</Link>
                             <Link onClick={() => setNavMobile(false)} className={styles.ctnContact} href="/contact">{translate('contact')}</Link>
                         </div>
                         <div className={styles.selectLanguage}>

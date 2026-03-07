@@ -2,7 +2,7 @@
   "nav": {
     "home": "Home",
     "about": "About",
-    "portfolio": "Portfolio",
+    "dev": "Projects",
     "contact": "Contact",
     "language": "Language"
   },
@@ -23,28 +23,29 @@
   },
 
   "portfolio": {
+    "title": "Portfolio",
+    "description": "100% responsive portfolio created in Next.js and style modules .scss.",
+    "viewCode": "View Code",
     "projects": {
       "recipes": {
         "title": "Recipes Website",
         "description": "This was a web project developed during the Web Frontend bootcamp at Campinho Digital. The goal was to create a themed recipe website to display dishes, using HTML, CSS, JavaScript, and modular file organization.",
-        "features": "The site features an attractive interface with banners, illustrative images, and dedicated pages for different recipes. Each recipe has its own page with detailed information and a customized layout. The project also includes navigation buttons for easy access between the main sections and recipes, as well as an interactive search bar to make browsing even more intuitive.",
-        "structure": "Additionally, the codebase is structured for easy maintenance and style reuse, with multiple CSS files and organized asset folders.",
         "projectActions": {
           "view": "View project",
-          "source": "Source code",
           "visit": "Visit site"
         }
       },
       "reencontrow": {
         "title": "Reencontrow Website",
         "description": "Reencontrow is a modern web application developed with React and Vite, featuring a clean interface. The project emphasizes component-based architecture, with reusable layout components and organized asset management.",
-        "features": "The website showcases visually appealing sections, including banners and thematic images, all styled using Sass (SCSS) for modular and maintainable stylesheets. The design was taken from Figma, ensuring a professional visual identity aligned with current trends.",
-        "structure": "The codebase is structured for scalability, with separate folders for components, styles, and assets, ensuring easy maintenance and future enhancements.",
         "projectActions": {
           "view": "View project",
-          "source": "Source code",
           "visit": "Visit site"
         }
+      },
+      "ordemDeServico": {
+        "title": "Service Order",
+        "description": "Freelance project, created in Next.js and style module .scss, using the react-signature-canvas library for handwritten signatures as requested. Service order created for the company where my mentor works."
       }
     }
   },

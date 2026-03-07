@@ -2,7 +2,7 @@
   "nav": {
     "home": "Início",
     "about": "Sobre",
-    "portfolio": "Portfólio",
+    "dev": "Projetos",
     "contact": "Contato",
     "language": "Idioma"
   },
@@ -23,30 +23,31 @@
     "closing": "Tenho facilidade para aprender novas tecnologias, trabalhar em equipe e aplicar boas práticas de desenvolvimento. Busco minha primeira oportunidade profissional como desenvolvedor frontend, onde possa contribuir com dedicação, crescer junto ao time e transformar ideias em soluções digitais de qualidade."
   },
 
-  "portfolio": {
-    "projects": {
-      "recipes": {
-        "title": "Site de Receitas",
-        "description": "Este foi um projeto web desenvolvido durante o bootcamp de Desenvolvimento Web Frontend do Campinho Digital. O objetivo era criar um site temático de receitas para exibir pratos variados, utilizando HTML, CSS, JavaScript e organização modular de arquivos.",
-        "features": "O site apresenta uma interface atrativa com banners, imagens ilustrativas e páginas dedicadas para diferentes receitas. Cada receita possui sua própria página com informações detalhadas e layout personalizado. O projeto também inclui botões de navegação para facilitar o acesso entre as seções principais e as receitas, além de uma barra de busca interativa para tornar a navegação ainda mais intuitiva.",
-        "structure": "Além disso, o código foi estruturado para facilitar a manutenção e o reaproveitamento de estilos, com múltiplos arquivos CSS e pastas de recursos organizadas.",
-        "projectActions": {
-          "view": "Ver projeto",
-          "source": "Código fonte",
-          "visit": "Visitar site"
-        }
-      },
-      "reencontrow": {
-        "title": "Site Reencontrow",
-        "description": "Reencontrow é uma aplicação web moderna desenvolvida com React e Vite, com uma interface limpa. O projeto enfatiza a arquitetura baseada em componentes, com layouts reutilizáveis e gerenciamento organizado de recursos.",
-        "features": "O site apresenta seções visualmente atrativas, incluindo banners e imagens temáticas, todas estilizadas com Sass (SCSS) para folhas de estilo modulares e fáceis de manter. O design foi retirado do Figma, garantindo uma identidade visual profissional alinhada com as tendências atuais.",
-        "structure": "A base de código foi estruturada para escalabilidade, com pastas separadas para componentes, estilos e recursos, garantindo fácil manutenção e futuras melhorias.",
-        "projectActions": {
-          "view": "Ver projeto",
-          "source": "Código fonte",
-          "visit": "Visitar site"
-        }
+  "projects": {
+    "portfolio": {
+      "title": "Portfólio",
+      "description": "Portfólio criado 100% responsivo criado em Next.js e style modules .scss.",
+      "viewCode": "Ver Código"
+    },
+    "recipes": {
+      "title": "Site de Receitas",
+      "description": "Projeto Criado durante o bootcamp de Desenvolvimento Web Frontend pela Campinho Digital. Projeto feito em HTML5, CSS3 sem responsividade.",
+      "projectActions": {
+        "view": "Ver projeto",
+        "visit": "Visitar site"
       }
+    },
+    "reencontrow": {
+      "title": "Site Reencontrow",
+      "description": "Projeto feito em React.js, CSS, para praticar um o uso de React.js.",
+      "projectActions": {
+        "view": "Ver projeto",
+        "visit": "Visitar site"
+      }
+    },
+    "ordemDeServico": {
+      "title": "Ordem de Serviço",
+      "description": "Projeto freelancer, criado em Next.js e style module .scss, com o uso da lib do react-signature-canvas para assinatura a punho como haviam solicitado. Ordem de serviço criado para a empresa que meu mentor trabalha."
     }
   },
 
