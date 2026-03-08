@@ -17,7 +17,7 @@ export default function PortfolioPage() {
                             <div className={styles.projectHeader}>
                                 <h3>{t("portfolio.title")}</h3>
                                 <div className={styles.projectLinks}>
-                                    <Link href="https://github.com/Ramon-Eduardo/Portfolio"><GithubIcon /><span>View Code</span></Link>
+                                    <Link href="https://github.com/Ramon-Eduardo/Portfolio"><GithubIcon /><span>{t("portfolio.viewCode")}</span></Link>
                                 </div>
                             </div>
                             <p>{t("portfolio.description")}</p>
@@ -29,8 +29,8 @@ export default function PortfolioPage() {
                             <div className={styles.projectHeader}>
                                 <h3>{t("recipes.title")}</h3>
                                 <div className={styles.projectLinks}>
-                                    <Link href="https://receitas-eta-eight.vercel.app/"><Globe /><span>View Project</span></Link>
-                                    <Link href="https://github.com/Ramon-Eduardo/Receitas"><GithubIcon /><span>View Project</span></Link>
+                                    <Link href="https://receitas-eta-eight.vercel.app/"><Globe /><span>{t("recipes.projectActions.view")}</span></Link>
+                                    <Link href="https://github.com/Ramon-Eduardo/Receitas"><GithubIcon /><span>{t("portfolio.viewCode")}</span></Link>
                                 </div>
                             </div>
                             <p>{t("recipes.description")}</p>
@@ -42,8 +42,8 @@ export default function PortfolioPage() {
                             <div className={styles.projectHeader}>
                                 <h3>{t("reencontrow.title")}</h3>
                                 <div className={styles.projectLinks}>
-                                    <Link href="https://reencontrow-delta.vercel.app/"><Globe /><span>View Project</span></Link>
-                                    <Link href="https://github.com/Ramon-Eduardo/Reencontrow"><GithubIcon /><span>View Project</span></Link>
+                                    <Link href="https://reencontrow-delta.vercel.app/"><Globe /><span>{t("reencontrow.projectActions.view")}</span></Link>
+                                    <Link href="https://github.com/Ramon-Eduardo/Reencontrow"><GithubIcon /><span>{t("portfolio.viewCode")}</span></Link>
                                 </div>
                             </div>
                             <p>{t("reencontrow.description")}</p>
@@ -55,7 +55,7 @@ export default function PortfolioPage() {
                             <div className={styles.projectHeader}>
                                 <h3>{t("ordemDeServico.title")}</h3>
                                 <div className={styles.projectLinks}>
-                                    <Link href="https://ordem-de-servico-five.vercel.app/"><Globe /><span>View Project</span></Link>
+                                    <Link href="https://ordem-de-servico-five.vercel.app/"><Globe /><span>{t("ordemDeServico.projectActions.view")}</span></Link>
                                 </div>
                             </div>
                             <p>{t("ordemDeServico.description")}</p>

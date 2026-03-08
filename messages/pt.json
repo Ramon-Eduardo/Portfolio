@@ -47,7 +47,11 @@
     },
     "ordemDeServico": {
       "title": "Ordem de Serviço",
-      "description": "Projeto freelancer, criado em Next.js e style module .scss, com o uso da lib do react-signature-canvas para assinatura a punho como haviam solicitado. Ordem de serviço criado para a empresa que meu mentor trabalha."
+      "description": "Projeto freelancer, criado em Next.js e style module .scss, com o uso da lib do react-signature-canvas para assinatura a punho como haviam solicitado. Ordem de serviço criado para a empresa que meu mentor trabalha.",
+      "projectActions": {
+        "view": "Ver projeto",
+        "visit": "Visitar site"
+      }
     }
   },
 

@@ -46,7 +46,11 @@
     },
     "ordemDeServico": {
       "title": "Service Order",
-      "description": "Freelance project, created in Next.js and style module .scss, using the react-signature-canvas library for handwritten signatures as requested. Service order created for the company where my mentor works."
+      "description": "Freelance project, created in Next.js and style module .scss, using the react-signature-canvas library for handwritten signatures as requested. Service order created for the company where my mentor works.",
+        "projectActions": {
+        "view": "View project",
+        "visit": "Visit site"
+      }
     }
   },
 
