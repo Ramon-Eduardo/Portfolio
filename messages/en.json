@@ -51,6 +51,14 @@
         "view": "View project",
         "visit": "Visit site"
       }
+    },
+    "codeLeap": {
+      "title": "CodeLeap",
+      "description": "Technical test created for a junior Front-End Web Developer position at Codeleap.uk. Project developed in Next.js and styled with style module .scss 100% responsive.",
+      "projectActions": {
+        "view": "View project",
+        "visit": "Visit site"
+      }
     }
   },
 

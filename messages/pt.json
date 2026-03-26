@@ -52,6 +52,14 @@
         "view": "Ver projeto",
         "visit": "Visitar site"
       }
+    },
+    "codeLeap": {
+      "title": "CodeLeap",
+      "description": "Prova técnica criada para um processo seletivo de Desenvolvedor Web Front-End Junior na empresa Codeleap.uk. Projeto desenvolvido em Next.js e estilizado com style module .scss 100% responsivo.",
+      "projectActions": {
+        "view": "Ver projeto",
+        "visit": "Visitar site"
+      }
     }
   },
 
@@ -65,5 +73,4 @@
       "whatsapp": "(+55) 31 99475-8935"
     }
   }
-
 }

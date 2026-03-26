@@ -61,6 +61,19 @@ export default function PortfolioPage() {
                             <p>{t("ordemDeServico.description")}</p>
                         </div>
                     </div>
+                    <div className={styles.projectCard}>
+                        <img src="/codeleap.png" alt="imagem Prova Técnica Codeleap" />
+                        <div className={styles.projectDescription}>
+                            <div className={styles.projectHeader}>
+                                <h3>{t("codeLeap.title")}</h3>
+                                <div className={styles.projectLinks}>
+                                    <Link href="https://code-leap-test-topaz.vercel.app/"><Globe /><span>{t("codeLeap.projectActions.view")}</span></Link>
+                                    <Link href="https://github.com/Ramon-Eduardo/codeLeap_test"><GithubIcon /><span>{t("portfolio.viewCode")}</span></Link>
+                                </div>
+                            </div>
+                            <p>{t("codeLeap.description")}</p>
+                        </div>
+                    </div>
                 </div>
             </Container>
         </div>
