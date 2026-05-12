@@ -4,7 +4,7 @@ Repositório do portfólio pessoal, implementado com Next.js (App Router) e inte
 
 ## Principais implementações
 
-<<<<<<< HEAD
+
 - Next.js (App Router) com rotas por idioma em `src/app/[locale]`.
 - Internacionalização com `next-intl` usando `messages/en.json` e `messages/pt.json`.
 - Componentes reutilizáveis (ex.: `Container`, `Header`, `LanguageSwitcher`).
@@ -24,7 +24,6 @@ Repositório do portfólio pessoal, implementado com Next.js (App Router) e inte
 ## Rodando localmente
 
 1. Instale dependências:
-<<<<<<< HEAD
 
 =======
 >>>>>>>
@@ -33,7 +32,6 @@ npm install
 ```
 
 2. Rode em modo de desenvolvimento:
-<<<<<<< HEAD
 
 =======
 >>>>>>>
@@ -42,7 +40,6 @@ npm run dev
 ```
 
 3. Build e produção:
-<<<<<<< HEAD
 
 =======
 >>>>>>>
@@ -55,7 +52,6 @@ Acesse o projeto em http://localhost:3000 (ou a rota de locale, ex: `/pt`).
 
 ## Internacionalização
 
-<<<<<<< HEAD
 - Arquivos de mensagens: `messages/en.json` e `messages/pt.json`.
 - Provider por locale implementado em `src/app/[locale]/layout.tsx` (NextIntlProvider).
 - Em componentes cliente use `useTranslations('namespace')`; em server components/pages use `getTranslator(params.locale)` ou `getTranslator(params.locale, 'namespace')`.
@@ -90,7 +86,6 @@ Acesse o projeto em http://localhost:3000 (ou a rota de locale, ex: `/pt`).
 
 ## Observações rápidas
 
-<<<<<<< HEAD
 - Se remover/alterar imagens ou SVGs do `public/`, atualize referências nos componentes.
 - Mantenha `messages/*.json` sincronizados com as chaves usadas no código para evitar chaves ausentes.
 =======
