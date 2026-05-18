@@ -45,7 +45,6 @@ const projects = [
         title: "Ordem de Serviço",
         description: "Projeto freelancer, criado em Next.js e style module .scss, com o uso da lib do react-signature-canvas para assinatura a punho como haviam solicitado. Ordem de serviço criado para a empresa que meu mentor trabalha.",
         tags: ["Next.js", "Style Module .scss", "Signature Canvas", "React-to-Print", "Responsive"],
-        github: "#",
         demo: "https://ordem-de-servico-five.vercel.app/",
         color: "from-blue-500 to-cyan-500",
         image: "/voxy.png"
@@ -113,15 +112,17 @@ export default function Projects() {
                                 </div>
 
                                 <div className="mt-auto flex items-center justify-between border-t border-white/10 pt-4">
-                                    <a
-                                        href={project.github}
-                                        target="_blank"
-                                        rel="noreferrer"
-                                        className="inline-flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors"
-                                    >
-                                        <Github />
-                                        <span>{t.projects.links.code}</span>
-                                    </a>
+                                    {project.github && (
+                                        <a
+                                            href={project.github}
+                                            target="_blank"
+                                            rel="noreferrer"
+                                            className="inline-flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors"
+                                        >
+                                            <Github />
+                                            <span>{t.projects.links.code}</span>
+                                        </a>
+                                    )}
                                     {project.demo && (
                                         <a
                                             href={project.demo}
