@@ -4,14 +4,24 @@ const nodemailer = require("nodemailer")
 
 export async function POST(request: Request) {
     
-    const body = await request.json();
+    try {
+        const body = await request.json();
 
-    if (!body.name || !body.email || !body.subject || !body.message) {
-        return NextResponse.json(
-            { message: "Missing required fields" }, 
-            { status: 400 }
-        );
-    }
+        if (!body.name || !body.email || !body.subject || !body.message) {
+            return NextResponse.json(
+                { message: "Missing required fields" }, 
+                { status: 400 }
+            );
+        }
+
+        // Validate environment variables
+        if (!process.env.EMAIL_FROM || !process.env.PASS) {
+            console.error("Missing email environment variables");
+            return NextResponse.json(
+                { message: "Server configuration error" }, 
+                { status: 500 }
+            );
+        }
 
     const message = {
         from: `${process.env.EMAIL_FROM}`,
