@@ -43,23 +43,43 @@ export async function POST(request: Request) {
             },
         };
 
-        let transporter = nodemailer.createTransport({
-            service: "gmail",
+        const transporter = nodemailer.createTransport({
+            host: "smtp.gmail.com",
+            port: 587,
+            secure: false,
             auth: {
                 user: process.env.EMAIL_FROM,
                 pass: process.env.PASS,
             },
-            tls: {
-                rejectUnauthorized: false,
-            },
         });
 
-        console.log(JSON.stringify(body));
-
-        await transporter.sendMail(message);
+        console.log("Attempting to send email from:", process.env.EMAIL_FROM);
+        
+        const info = await transporter.sendMail(message);
+        console.log("Email sent successfully:", info.response);
+        
         return NextResponse.json({ message: "Email sent successfully" }, { status: 200 });
     } catch (error: any) {
-        console.error("Error sending email:", error);
-        return NextResponse.json({ message: "Failed to send email" }, { status: 500 });
+        const errorMessage = error?.message || "Unknown error";
+        const errorCode = error?.code || "UNKNOWN";
+        
+        console.error("Error sending email:", {
+            message: errorMessage,
+            code: errorCode,
+            response: error?.response,
+        });
+        
+        // Return more specific error message for debugging
+        let userMessage = "Failed to send email";
+        
+        if (errorCode === "EAUTH") {
+            userMessage = "Authentication failed - check your email and app password";
+        } else if (errorMessage.includes("Invalid login")) {
+            userMessage = "Invalid email or app password";
+        } else if (errorMessage.includes("SMTP")) {
+            userMessage = "Email service error - please try again later";
+        }
+        
+        return NextResponse.json({ message: userMessage }, { status: 500 });
     }
 }
