@@ -11,7 +11,7 @@ const projects = [
         description: "Novo portfólio criado em Next.js e Tailwind CSS, com o objetivo de praticar o uso do Tailwind CSS e criar um portfólio mais moderno e leve. Projeto criado com foco em aprendizagem.",
         tags: ["Next.js", "Tailwind CSS", "JavaScript", "Internacionalização", "Responsive", "Fetch API",],
         github: "https://github.com/Ramon-Eduardo/Portfolio",
-        demo: "https://portfolio-three-nu-3d6ci5xm4z.vercel.app",
+        demo: "#",
         color: "from-violet-500 to-purple-500",
         image: "/portfolio.png"
     },
