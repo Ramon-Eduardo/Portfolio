@@ -1,97 +1,36 @@
-# Portfolio
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Repositório do portfólio pessoal, implementado com Next.js (App Router) e internacionalização via next-intl. Projeto componentizado, estilos em Sass (SCSS) e suporte a múltiplos idiomas (pt / en).
+## Getting Started
 
-## Principais implementações
+First, run the development server:
 
-
-- Next.js (App Router) com rotas por idioma em `src/app/[locale]`.
-- Internacionalização com `next-intl` usando `messages/en.json` e `messages/pt.json`.
-- Componentes reutilizáveis (ex.: `Container`, `Header`, `LanguageSwitcher`).
-- Estilos em Sass/SCSS (`app.scss`, módulos por componente).
-- Preservação de rota ao trocar idioma (LanguageSwitcher usa `usePathname`).
-- Middleware para redirecionamento/controle de locale (`src/middleware.ts`).
-=======
-- Next.js (App Router) com rotas por idioma em `src/app/[locale]`.  
-- Internacionalização com `next-intl` usando `messages/en.json` e `messages/pt.json`.  
-- Componentes reutilizáveis (ex.: `Container`, `Header`, `LanguageSwitcher`).  
-- Estilos em Sass/SCSS (`app.scss`, módulos por componente).  
-- Preservação de rota ao trocar idioma (LanguageSwitcher usa `usePathname`).  
-- Middleware para redirecionamento/controle de locale (`src/middleware.ts`).  
->>>>>>>
-- Assets públicos mínimos mantidos em `public/` (ex.: `public/curriculo`).
-
-## Rodando localmente
-
-1. Instale dependências:
-
-=======
->>>>>>>
-```bash
-npm install
-```
-
-2. Rode em modo de desenvolvimento:
-
-=======
->>>>>>>
 ```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-3. Build e produção:
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-=======
->>>>>>>
-```bash
-npm run build
-npm run start
-```
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Acesse o projeto em http://localhost:3000 (ou a rota de locale, ex: `/pt`).
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Internacionalização
+## Learn More
 
-- Arquivos de mensagens: `messages/en.json` e `messages/pt.json`.
-- Provider por locale implementado em `src/app/[locale]/layout.tsx` (NextIntlProvider).
-- Em componentes cliente use `useTranslations('namespace')`; em server components/pages use `getTranslator(params.locale)` ou `getTranslator(params.locale, 'namespace')`.
-=======
-- Arquivos de mensagens: `messages/en.json` e `messages/pt.json`.  
-- Provider por locale implementado em `src/app/[locale]/layout.tsx` (NextIntlProvider).  
-- Em componentes cliente use `useTranslations('namespace')`; em server components/pages use `getTranslator(params.locale)` ou `getTranslator(params.locale, 'namespace')`.  
->>>>>>> 
-- Atualize apenas as chaves realmente usadas no código.
+To learn more about Next.js, take a look at the following resources:
 
-## Estrutura resumida
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-```
-.
-├── messages/
-│   ├── en.json
-│   └── pt.json
-├── public/
-│   └── curriculo/
-├── src/
-│   ├── app/
-│   │   └── [locale]/...
-│   ├── components/
-│   │   ├── header/
-│   │   ├── Container/
-│   │   └── switcher/
-│   ├── middleware.ts
-│   └── app.scss
-├── package.json
-└── next.config.ts
-```
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Observações rápidas
+## Deploy on Vercel
 
-- Se remover/alterar imagens ou SVGs do `public/`, atualize referências nos componentes.
-- Mantenha `messages/*.json` sincronizados com as chaves usadas no código para evitar chaves ausentes.
-=======
-- Se remover/alterar imagens ou SVGs do `public/`, atualize referências nos componentes.  
-- Mantenha `messages/*.json` sincronizados com as chaves usadas no código para evitar chaves ausentes.  
->>>>>>>
-- Para incluir bandeiras SVG como componentes, coloque-os em `src/components/svg/`.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
----
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
