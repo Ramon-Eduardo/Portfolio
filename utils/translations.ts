@@ -42,7 +42,7 @@ export const translations = {
         },
         {
           title: "First Portfolio",
-          description: "100% responsive portfolio created in Next.js and SCSS style modules.",
+          description: "Portfolio created in 2025 100% responsive in Next.js and .scss style modules, Internationalization with translations for PT-BR and EN, made with Next-Intl and I18n.",
         },
         {
           title: "Delícias a Mesa",
@@ -126,7 +126,7 @@ export const translations = {
         },
         {
           title: "Primeiro Portfólio",
-          description: "Portfólio criado 100% responsivo em Next.js e módulos de style .scss.",
+          description: "Portfólio criado em 2025 100% responsivo em Next.js e módulos de style .scss, Internacionalização com traduções para PT-BR e EN, feito pelo Next-Intl e I18n.",
         },
         {
           title: "Delícias a Mesa",
