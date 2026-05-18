@@ -122,15 +122,17 @@ export default function Projects() {
                                         <Github />
                                         <span>{t.projects.links.code}</span>
                                     </a>
-                                    <a
-                                        href={project.demo}
-                                        target="_blank"
-                                        rel="noreferrer"
-                                        className="inline-flex items-center gap-2 text-sm text-primary hover:text-primary/80 transition-colors"
-                                    >
-                                        <ExternalLink/>
-                                        <span>{t.projects.links.demo}</span>
-                                    </a>
+                                    {project.demo && (
+                                        <a
+                                            href={project.demo}
+                                            target="_blank"
+                                            rel="noreferrer"
+                                            className="inline-flex items-center gap-2 text-sm text-primary hover:text-primary/80 transition-colors"
+                                        >
+                                            <ExternalLink/>
+                                            <span>{t.projects.links.demo}</span>
+                                        </a>
+                                    )}
                                 </div>
                             </div>
                         </div>
