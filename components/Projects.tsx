@@ -5,18 +5,21 @@ import Github from "./svg/github"
 import ExternalLink from "./svg/linkArrow"
 import { useLanguage } from "@/context/LanguageContext";
 
+export default function Projects() {
+    const { t } = useLanguage();
+
 const projects = [
     {
-        title: "Portfolio",
-        description: "Novo portfólio criado em Next.js e Tailwind CSS, com o objetivo de praticar o uso do Tailwind CSS e criar um portfólio mais moderno e leve. Projeto criado com foco em aprendizagem.",
+        title: t.projects.list[0].title,
+        description: t.projects.list[0].description,
         tags: ["Next.js", "Tailwind CSS", "JavaScript", "Internacionalização", "Responsive", "Fetch API",],
         github: "https://github.com/Ramon-Eduardo/Portfolio",
         color: "from-violet-500 to-purple-500",
         image: "/portfolio.png"
     },
     {
-        title: "Primeiro Portfólio",
-        description: "Portfólio criado 100% responsivo criado em Next.js e style modules .scss.",
+        title: t.projects.list[1].title,
+        description: t.projects.list[1].description,
         tags: ["Next.js", "Style Module .scss", "JavaScript", "Responsive", "Internacionalização",],
         github: "https://github.com/Ramon-Eduardo/First-Portfolio",
         demo: "https://first-portfolio-gamma-nine.vercel.app/",
@@ -24,8 +27,8 @@ const projects = [
         image: "/oldPortfolio.png"
     },
     {
-        title: "Delícias a Mesa",
-        description: "Projeto Criado durante o bootcamp de Desenvolvimento Web Frontend pela Campinho Digital. Projeto feito em HTML5, CSS3 sem responsividade.",
+        title: t.projects.list[2].title,
+        description: t.projects.list[2].description,
         tags: ["HTML5", "CSS3", "JavaScript"],
         github: "https://github.com/Ramon-Eduardo/Receitas",
         demo: "https://receitas-eta-eight.vercel.app/",
@@ -33,8 +36,8 @@ const projects = [
         image: "/receitas.png"
     },
     {
-        title: "Reencontrow",
-        description: "Projeto feito em React.js, CSS, sem Responsividade. Projeto criado para praticar o uso de React.js.",
+        title: t.projects.list[3].title,
+        description: t.projects.list[3].description,
         tags: ["React.js", "CSS3", "Vite"],
         github: "https://github.com/Ramon-Eduardo/Reencontrow",
         demo: "https://reencontrow-delta.vercel.app/",
@@ -42,16 +45,16 @@ const projects = [
         image: "/reencontrow.png"
     },
     {
-        title: "Ordem de Serviço",
-        description: "Projeto freelancer, criado em Next.js e style module .scss, com o uso da lib do react-signature-canvas para assinatura a punho como haviam solicitado. Ordem de serviço criado para a empresa que meu mentor trabalha.",
+        title: t.projects.list[4].title,
+        description: t.projects.list[4].description,
         tags: ["Next.js", "Style Module .scss", "Signature Canvas", "React-to-Print", "Responsive"],
         demo: "https://ordem-de-servico-five.vercel.app/",
         color: "from-blue-500 to-cyan-500",
         image: "/voxy.png"
     },
     {
-        title: "CodeLeap Test",
-        description: "Prova técnica criada para um processo seletivo de Desenvolvedor Web Front-End Junior na empresa Codeleap.uk. Projeto desenvolvido em React.js e estilizado com style module .scss 100% responsivo.",
+        title: t.projects.list[5].title,
+        description: t.projects.list[5].description,
         tags: ["React.js", "Style Module .scss", "JavaScript", "Fetch API", "Responsive", "Vite"],
         github: "https://github.com/Ramon-Eduardo/codeLeap_test",
         demo: "https://code-leap-test-topaz.vercel.app/",
@@ -60,8 +63,7 @@ const projects = [
     }
 ]
 
-export default function Projects() {
-    const { t } = useLanguage();
+
     
     return (
         <section id="projects" className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
